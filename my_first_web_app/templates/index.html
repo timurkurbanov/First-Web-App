@@ -8,6 +8,14 @@
 </head>
 <body>
     <h1>Hi, {{ name }}</h1>
-    <p>this is the home page</p>
+    <h2>today is {{ date }}</h2>
+    <section>
+        {% for article in articles %}
+        <h3>{{ article.title }}</h3>
+        <p>Published by {{ article.author }} on {{ article.published_date }}</p>
+        <p>{{ article.body }}</p>
+   
+        {% endfor %}
+    </section>
 </body>
-</html>
+  </html>

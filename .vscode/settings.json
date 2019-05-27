@@ -1,5 +1,5 @@
 {
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.pythonPath": "/Users/timkur/.pyenv/versions/3.7.1/bin/python"
+    "python.pythonPath": "/Users/timkur/.pyenv/versions/my_first_web_app/bin/python"
 }
